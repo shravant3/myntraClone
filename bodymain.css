@@ -1,0 +1,9 @@
+.bodymain{
+    display: flex;
+    margin-top: 125px;
+    justify-content: center;
+}
+
+.carousel-down{
+    width: 100%;
+}

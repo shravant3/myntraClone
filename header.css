@@ -1,0 +1,135 @@
+header{
+    font-weight: 700;
+    font-size: 15px;
+    z-index: 100;
+}
+
+
+
+.container-fluid{
+    background-color: white;
+    box-shadow:rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
+    z-index: 200;
+}
+
+.navbar-brand{
+    height: 80px;
+    margin-left: 32px;
+    align-items: center;
+
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.myntra-logo{
+    height: 36px;
+    margin-top: 17px;
+}
+
+.d-flex{
+    min-width: 350px;
+    max-width: 550px;
+    display: inline-flex;
+    flex: 1;
+    align-items: center;
+    background-color:rgba(214, 214, 214, 0.212) ;
+    margin: 0 10px;
+}
+
+@media (max-width:1000px) {
+    .d-flex{
+        min-width: 150px;
+    }
+    .navbar-brand{
+        margin-left: 5px;
+    } 
+}
+
+.form-control{
+    background-color:transparent;
+    border: 0;
+}
+
+.search-img{
+    height: 8px;
+    padding: 0 10px;
+}
+
+.user_btn,
+.wish_btn,
+.cart_btn{
+    padding: 0 12px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 22px;
+    border: 0;
+    background-color: transparent;
+}
+
+.user_btn:hover .dropdown-menu {
+    display: block;
+    border: 0;
+    top: 80px;
+}
+
+.right-img{
+    height: 22px;
+    
+}
+
+.collapse{
+    justify-content: end;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+    border: 0;
+    top: 80px;
+}
+
+.drop-container{
+    margin-left: 20px;
+    width: 900px;
+    margin-right: 20px;
+    display:inline-flex;
+}
+
+.dropdown-menu{
+    left: 60px;
+    right: 60px;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0; 
+    margin: 0; 
+  }
+
+.oddcontainer{
+    margin-right: 15px;
+}
+
+.evencontainer{
+    background-color: rgba(0, 0, 0, 0.987);
+    margin-right: 15px;
+    
+}
+
+.dropdown-item3{
+    color: rgb(255, 149, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 4px 16px;
+}
+
+.dropdown-item{
+    font-size: 14px;
+    font-weight: 500;
+}
+
